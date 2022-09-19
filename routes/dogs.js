@@ -3,31 +3,29 @@ var router = express.Router();
 
 
 const dogList = [{
-    breed: "",
-    size: "",
+    breed: "Pit Bull",
+    size: "M",
+    temperment: "calm",
+    createdAt: "2022-03-22T10:36:37.176Z",
+    lastModified: "2022-03-22T10:36:37.176Z"
+},
+{
+    breed: "German Shepard",
+    size: "L",
+    temperment: "",
+    createdAt: "2022-03-22T10:36:37.176Z",
+    lastModified: "2022-03-22T10:36:37.176Z"
+},
+{
+    breed: "Irish Wolf Hound",
+    size: "XL",
     temperment: "",
     activities: [],
     createdAt: "2022-03-22T10:36:37.176Z",
     lastModified: "2022-03-22T10:36:37.176Z"
 },
 {
-    breed: "",
-    size: "",
-    temperment: "",
-    activities: [],
-    createdAt: "2022-03-22T10:36:37.176Z",
-    lastModified: "2022-03-22T10:36:37.176Z"
-},
-{
-    breed: "",
-    size: "",
-    temperment: "",
-    activities: [],
-    createdAt: "2022-03-22T10:36:37.176Z",
-    lastModified: "2022-03-22T10:36:37.176Z"
-},
-{
-    breed: "",
+    breed: "Chihuahua",
     size: "",
     temperment: "",
     activities: [],
